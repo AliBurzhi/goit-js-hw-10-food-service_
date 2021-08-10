@@ -1,0 +1,38 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "dev": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliBurzhi/goit-js-hw-10-food-service_.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliBurzhi/goit-js-hw-10-food-service_/issues"
+  },
+  "homepage": "https://github.com/AliBurzhi/goit-js-hw-10-food-service_#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "loader": "^2.1.1",
+    "sass": "^1.37.5",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.49.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "handlebars-loader": "^1.7.1"
+  }
+}
